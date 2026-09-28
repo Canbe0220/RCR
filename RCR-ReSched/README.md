@@ -30,7 +30,7 @@ PROBLEM = 'fjsp'  # 'fjsp' or 'jssp'
 In the corresponding `REINFORCE/configs/*.py` file, check dataset paths and update these `runner_params` fields:
 
 | Parameter | Train a new model | Test a trained model |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | `test_only` | `False` | `True` |
 | `checkpoint` | `None` | `None` |
 | `model_path` | `None` | Path to an RCR-RESCHED `.pth` file |
@@ -45,5 +45,8 @@ python SchedulingMain.py
 Use `checkpoint` to resume an existing experiment. Datasets follow the original layout: `data/FJSP/TNNLS/` and `data/JSSP/L2D/`. Logs and model outputs are saved under `result/`.
 
 ## Acknowledgments
-
-Built on RESCHED. We also acknowledge [POMO](https://github.com/yd-kwon/POMO), [L2D](https://github.com/zcaicaros/L2D), [fjsp-drl](https://github.com/songwenas12/fjsp-drl/), [FJSP-DRL](https://github.com/wrqccc/FJSP-DRL), and [MatNet](https://github.com/yd-kwon/MatNet), referenced by the original codebase.
+The implementation of this work refers to the following excellent work:
+- https://github.com/XiangjieXiao/ReSched
+- https://github.com/wrqccc/FJSP-DRL
+- https://github.com/songwenas12/fjsp-drl
+- https://github.com/zcaicaros/L2D
