@@ -16,8 +16,8 @@ The backbone encoder and environment are unchanged. Training and testing follow 
 
 ## Dependencies
 
-- PyTorch 2.3.1 (CUDA 12.1), NumPy, pandas.
-- Optional: OR-Tools 9.11.4210 for computing reference solutions.
+- Python 3.7.11; PyTorch 1.11.0 (CUDA 11.3); NumPy, pandas, and tqdm.
+- Optional: OR-Tools 9.3.10497 for computing reference solutions.
 
 ## Training and Testing
 
@@ -44,7 +44,7 @@ python SchedulingMain.py
 
 Use `checkpoint` to resume an existing experiment. Datasets follow the original layout: `data/FJSP/TNNLS/` and `data/JSSP/L2D/`. Logs and model outputs are saved under `result/`.
 
-## Acknowledgments
+## References
 The implementation of this work refers to the following excellent work:
 - https://github.com/XiangjieXiao/ReSched
 - https://github.com/wrqccc/FJSP-DRL
