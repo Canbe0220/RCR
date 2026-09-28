@@ -46,8 +46,8 @@ Select a backbone above and follow the corresponding README. Training and testin
 
 This repository builds on the following open-source implementations:
 
-- [HGNN](https://github.com/songwenas12/fjsp-drl)
-- [DANIEL](https://github.com/wrqccc/FJSP-DRL)
-- [RESCHED](https://github.com/XiangjieXiao/ReSched)
-- [L2D](https://github.com/zcaicaros/L2D)
-- [OR-Tools](https://github.com/google/or-tools)
+- https://github.com/XiangjieXiao/ReSched
+- https://github.com/wrqccc/FJSP-DRL
+- https://github.com/songwenas12/fjsp-drl
+- https://github.com/zcaicaros/L2D
+- https://github.com/google/or-tools
