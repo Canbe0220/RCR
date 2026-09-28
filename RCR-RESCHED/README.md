@@ -1,6 +1,6 @@
 # RCR-RESCHED
 
-This repository is the implementation of the paper **RCR-RESCHED**, built on RESCHED for FJSP and JSSP.
+This folder is the implementation of **RCR-RESCHED**, built on RESCHED for FJSP and JSSP.
 
 ## Changes from RESCHED
 
