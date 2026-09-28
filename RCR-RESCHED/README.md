@@ -1,6 +1,6 @@
 # RCR-RESCHED
 
-REINFORCE implementation of **Learning with Resource-Capacity Reasoning for Flexible Job-Shop Scheduling**, built on RESCHED for FJSP and JSSP.
+This repository is the implementation of the paper **RCR-RESCHED**, built on RESCHED for FJSP and JSSP.
 
 ## Changes from RESCHED
 

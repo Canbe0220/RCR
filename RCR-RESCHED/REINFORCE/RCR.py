@@ -1,5 +1,5 @@
 """
-RCR-RESCHED (REINFORCE): Actor reasoning + completion-loss penalty.
+RCR-RESCHED (REINFORCE): Balanced-Capacity Descriptor (BCD) + Completion-Loss Certificate (CLC).
 """
 
 from copy import copy
